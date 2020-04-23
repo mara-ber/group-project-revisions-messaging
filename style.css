@@ -35,6 +35,10 @@ input {
   cursor: pointer;
 }
 
+#archive {
+  border: 2px solid rgba(0, 0, 0, 0.404) ;
+}
+
 /* Site title and top navigation */
 .site-header {
   display: flex;
@@ -70,6 +74,10 @@ input {
   color: rgba(0, 0, 0, 0.6);
 }
 
+.message--self {
+  margin: 1rem 1rem 1rem 3rem;
+}
+
 .message__content {
   margin: 0;
 }
@@ -91,4 +99,12 @@ input {
   border-radius: 2px;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
   background: #fff;
+}
+
+form {
+  padding: 0.5rem 1rem;
+  color: rgba(18, 25, 59, 0.9);
+  background: white;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
